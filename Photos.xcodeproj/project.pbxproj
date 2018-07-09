@@ -13,6 +13,35 @@
 		1885055420EB8F5600AECAE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1885055320EB8F5600AECAE5 /* Assets.xcassets */; };
 		1885055720EB8F5600AECAE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1885055520EB8F5600AECAE5 /* LaunchScreen.storyboard */; };
 		1885055A20EB8F5600AECAE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1885055920EB8F5600AECAE5 /* main.m */; };
+		188505DF20EE5AC400AECAE5 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188505DE20EE5AC400AECAE5 /* BaseViewController.m */; };
+		188505E620EE60EA00AECAE5 /* ZMColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 188505E420EE60E900AECAE5 /* ZMColor.m */; };
+		188505E920EF051400AECAE5 /* NetworkRequestManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 188505E820EF051400AECAE5 /* NetworkRequestManage.m */; };
+		18C4B89F20F077FE00C19805 /* NetAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C4B89E20F077FE00C19805 /* NetAPIManager.m */; };
+		18C4B8A520F0871A00C19805 /* PhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C4B8A420F0871A00C19805 /* PhotoModel.m */; };
+		18C4B8A820F0881700C19805 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C4B8A720F0881700C19805 /* UserModel.m */; };
+		18C4B8AB20F088D000C19805 /* ProfileImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C4B8AA20F088D000C19805 /* ProfileImageModel.m */; };
+		18C4B8AE20F089FF00C19805 /* LinksModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C4B8AD20F089FF00C19805 /* LinksModel.m */; };
+		18C4B8B120F0AC3000C19805 /* CurrentUserCollections.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C4B8B020F0AC3000C19805 /* CurrentUserCollections.m */; };
+		18C4B8B420F0AD7700C19805 /* UrlsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C4B8B320F0AD7700C19805 /* UrlsModel.m */; };
+		18C4B8BB20F0B62C00C19805 /* HomeImgCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C4B8BA20F0B62C00C19805 /* HomeImgCell.m */; };
+		18C4B8BE20F0C0C400C19805 /* CacheUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C4B8BD20F0C0C400C19805 /* CacheUtil.m */; };
+		18C4B8C120F0C47000C19805 /* NSArray+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C4B8C020F0C47000C19805 /* NSArray+JSON.m */; };
+		18C4B8C420F0C66600C19805 /* NSString+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C4B8C320F0C66600C19805 /* NSString+JSON.m */; };
+		18C4B8C720F0E35A00C19805 /* HomeHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C4B8C620F0E35A00C19805 /* HomeHeadView.m */; };
+		18C4B8CA20F0E9BF00C19805 /* DateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C4B8C920F0E9BE00C19805 /* DateUtils.m */; };
+		18C4B8DE20F0F08800C19805 /* TYPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C4B8CD20F0F08800C19805 /* TYPagerController.m */; };
+		18C4B8DF20F0F08800C19805 /* TYPagerViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C4B8CE20F0F08800C19805 /* TYPagerViewLayout.m */; };
+		18C4B8E020F0F08800C19805 /* TYTabPagerBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C4B8D020F0F08800C19805 /* TYTabPagerBar.m */; };
+		18C4B8E120F0F08800C19805 /* TYTabPagerBarLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C4B8D120F0F08800C19805 /* TYTabPagerBarLayout.m */; };
+		18C4B8E220F0F08800C19805 /* TYTabPagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C4B8D420F0F08800C19805 /* TYTabPagerView.m */; };
+		18C4B8E320F0F08800C19805 /* TYTabPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C4B8D720F0F08800C19805 /* TYTabPagerController.m */; };
+		18C4B8E420F0F08800C19805 /* TYTabPagerBarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C4B8D820F0F08800C19805 /* TYTabPagerBarCell.m */; };
+		18C4B8E520F0F08800C19805 /* TYPagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C4B8DA20F0F08800C19805 /* TYPagerView.m */; };
+		18C4B8E820F0F0D700C19805 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C4B8E720F0F0D700C19805 /* HomePageViewController.m */; };
+		18C4B8EB20F0F1E700C19805 /* LatestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C4B8EA20F0F1E700C19805 /* LatestViewController.m */; };
+		18C4B8EE20F1113400C19805 /* CustomLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C4B8ED20F1113300C19805 /* CustomLabel.m */; };
+		18C7F55020F1ED6C000CF53D /* PreferenceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C7F54F20F1ED6C000CF53D /* PreferenceUtil.m */; };
+		51CE2B8609F5D1CC1EDF3A16 /* libPods-Photos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ACACE51EC17A169498F9081 /* libPods-Photos.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +55,67 @@
 		1885055620EB8F5600AECAE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1885055820EB8F5600AECAE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1885055920EB8F5600AECAE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		188505DD20EE5AC400AECAE5 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		188505DE20EE5AC400AECAE5 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		188505E020EE5C2D00AECAE5 /* PCH.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCH.h; sourceTree = "<group>"; };
+		188505E420EE60E900AECAE5 /* ZMColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMColor.m; sourceTree = "<group>"; };
+		188505E520EE60E900AECAE5 /* ZMColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMColor.h; sourceTree = "<group>"; };
+		188505E720EF051400AECAE5 /* NetworkRequestManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkRequestManage.h; sourceTree = "<group>"; };
+		188505E820EF051400AECAE5 /* NetworkRequestManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkRequestManage.m; sourceTree = "<group>"; };
+		188505EA20EF0B1900AECAE5 /* api.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = api.h; sourceTree = "<group>"; };
+		18C4B89D20F077FE00C19805 /* NetAPIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetAPIManager.h; sourceTree = "<group>"; };
+		18C4B89E20F077FE00C19805 /* NetAPIManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetAPIManager.m; sourceTree = "<group>"; };
+		18C4B8A320F0871A00C19805 /* PhotoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoModel.h; sourceTree = "<group>"; };
+		18C4B8A420F0871A00C19805 /* PhotoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoModel.m; sourceTree = "<group>"; };
+		18C4B8A620F0881700C19805 /* UserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		18C4B8A720F0881700C19805 /* UserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		18C4B8A920F088D000C19805 /* ProfileImageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileImageModel.h; sourceTree = "<group>"; };
+		18C4B8AA20F088D000C19805 /* ProfileImageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileImageModel.m; sourceTree = "<group>"; };
+		18C4B8AC20F089FF00C19805 /* LinksModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinksModel.h; sourceTree = "<group>"; };
+		18C4B8AD20F089FF00C19805 /* LinksModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinksModel.m; sourceTree = "<group>"; };
+		18C4B8AF20F0AC3000C19805 /* CurrentUserCollections.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurrentUserCollections.h; sourceTree = "<group>"; };
+		18C4B8B020F0AC3000C19805 /* CurrentUserCollections.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrentUserCollections.m; sourceTree = "<group>"; };
+		18C4B8B220F0AD7700C19805 /* UrlsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UrlsModel.h; sourceTree = "<group>"; };
+		18C4B8B320F0AD7700C19805 /* UrlsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UrlsModel.m; sourceTree = "<group>"; };
+		18C4B8B920F0B62C00C19805 /* HomeImgCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeImgCell.h; sourceTree = "<group>"; };
+		18C4B8BA20F0B62C00C19805 /* HomeImgCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeImgCell.m; sourceTree = "<group>"; };
+		18C4B8BC20F0C0C400C19805 /* CacheUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CacheUtil.h; sourceTree = "<group>"; };
+		18C4B8BD20F0C0C400C19805 /* CacheUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CacheUtil.m; sourceTree = "<group>"; };
+		18C4B8BF20F0C47000C19805 /* NSArray+JSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSON.h"; sourceTree = "<group>"; };
+		18C4B8C020F0C47000C19805 /* NSArray+JSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JSON.m"; sourceTree = "<group>"; };
+		18C4B8C220F0C66600C19805 /* NSString+JSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+JSON.h"; sourceTree = "<group>"; };
+		18C4B8C320F0C66600C19805 /* NSString+JSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+JSON.m"; sourceTree = "<group>"; };
+		18C4B8C520F0E35A00C19805 /* HomeHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeHeadView.h; sourceTree = "<group>"; };
+		18C4B8C620F0E35A00C19805 /* HomeHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeHeadView.m; sourceTree = "<group>"; };
+		18C4B8C820F0E9BE00C19805 /* DateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateUtils.h; sourceTree = "<group>"; };
+		18C4B8C920F0E9BE00C19805 /* DateUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateUtils.m; sourceTree = "<group>"; };
+		18C4B8CD20F0F08800C19805 /* TYPagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPagerController.m; sourceTree = "<group>"; };
+		18C4B8CE20F0F08800C19805 /* TYPagerViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPagerViewLayout.m; sourceTree = "<group>"; };
+		18C4B8D020F0F08800C19805 /* TYTabPagerBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabPagerBar.m; sourceTree = "<group>"; };
+		18C4B8D120F0F08800C19805 /* TYTabPagerBarLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabPagerBarLayout.m; sourceTree = "<group>"; };
+		18C4B8D220F0F08800C19805 /* TYTabPagerBarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabPagerBarCell.h; sourceTree = "<group>"; };
+		18C4B8D320F0F08800C19805 /* TYTabPagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabPagerController.h; sourceTree = "<group>"; };
+		18C4B8D420F0F08800C19805 /* TYTabPagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabPagerView.m; sourceTree = "<group>"; };
+		18C4B8D520F0F08800C19805 /* TYTabPagerBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabPagerBar.h; sourceTree = "<group>"; };
+		18C4B8D620F0F08800C19805 /* TYTabPagerBarLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabPagerBarLayout.h; sourceTree = "<group>"; };
+		18C4B8D720F0F08800C19805 /* TYTabPagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabPagerController.m; sourceTree = "<group>"; };
+		18C4B8D820F0F08800C19805 /* TYTabPagerBarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabPagerBarCell.m; sourceTree = "<group>"; };
+		18C4B8D920F0F08800C19805 /* TYTabPagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabPagerView.h; sourceTree = "<group>"; };
+		18C4B8DA20F0F08800C19805 /* TYPagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPagerView.m; sourceTree = "<group>"; };
+		18C4B8DB20F0F08800C19805 /* TYPagerViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPagerViewLayout.h; sourceTree = "<group>"; };
+		18C4B8DC20F0F08800C19805 /* TYPagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPagerController.h; sourceTree = "<group>"; };
+		18C4B8DD20F0F08800C19805 /* TYPagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPagerView.h; sourceTree = "<group>"; };
+		18C4B8E620F0F0D700C19805 /* HomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		18C4B8E720F0F0D700C19805 /* HomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		18C4B8E920F0F1E700C19805 /* LatestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LatestViewController.h; sourceTree = "<group>"; };
+		18C4B8EA20F0F1E700C19805 /* LatestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LatestViewController.m; sourceTree = "<group>"; };
+		18C4B8EC20F1113300C19805 /* CustomLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomLabel.h; sourceTree = "<group>"; };
+		18C4B8ED20F1113300C19805 /* CustomLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomLabel.m; sourceTree = "<group>"; };
+		18C7F54E20F1ED6C000CF53D /* PreferenceUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreferenceUtil.h; sourceTree = "<group>"; };
+		18C7F54F20F1ED6C000CF53D /* PreferenceUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreferenceUtil.m; sourceTree = "<group>"; };
+		2D99BE6CA5C1BB193314C9EE /* Pods-Photos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photos.release.xcconfig"; path = "Pods/Target Support Files/Pods-Photos/Pods-Photos.release.xcconfig"; sourceTree = "<group>"; };
+		3ACACE51EC17A169498F9081 /* libPods-Photos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Photos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86A95C79258AF8EA1130661A /* Pods-Photos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Photos/Pods-Photos.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +123,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51CE2B8609F5D1CC1EDF3A16 /* libPods-Photos.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16AD85CC615F396E4E0F9186 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86A95C79258AF8EA1130661A /* Pods-Photos.debug.xcconfig */,
+				2D99BE6CA5C1BB193314C9EE /* Pods-Photos.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1885053E20EB8F5500AECAE5 = {
 			isa = PBXGroup;
 			children = (
 				1885054920EB8F5500AECAE5 /* Photos */,
 				1885054820EB8F5500AECAE5 /* Products */,
+				16AD85CC615F396E4E0F9186 /* Pods */,
+				F5157F53268EB6AEACBFEAF6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +160,147 @@
 		1885054920EB8F5500AECAE5 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
-				1885054A20EB8F5500AECAE5 /* AppDelegate.h */,
+				18C4B8CB20F0F06500C19805 /* Custom */,
+				18C4B8A020F0843A00C19805 /* Modules */,
+				188505D920EE59A100AECAE5 /* Tools */,
 				1885054B20EB8F5500AECAE5 /* AppDelegate.m */,
-				1885054D20EB8F5500AECAE5 /* ViewController.h */,
-				1885054E20EB8F5500AECAE5 /* ViewController.m */,
 				1885055020EB8F5500AECAE5 /* Main.storyboard */,
 				1885055320EB8F5600AECAE5 /* Assets.xcassets */,
 				1885055520EB8F5600AECAE5 /* LaunchScreen.storyboard */,
+				1885054A20EB8F5500AECAE5 /* AppDelegate.h */,
 				1885055820EB8F5600AECAE5 /* Info.plist */,
 				1885055920EB8F5600AECAE5 /* main.m */,
+				188505E020EE5C2D00AECAE5 /* PCH.h */,
+				188505EA20EF0B1900AECAE5 /* api.h */,
 			);
 			path = Photos;
+			sourceTree = "<group>";
+		};
+		188505D920EE59A100AECAE5 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				18C4B8C820F0E9BE00C19805 /* DateUtils.h */,
+				18C4B8C920F0E9BE00C19805 /* DateUtils.m */,
+				188505E520EE60E900AECAE5 /* ZMColor.h */,
+				188505E420EE60E900AECAE5 /* ZMColor.m */,
+				188505E720EF051400AECAE5 /* NetworkRequestManage.h */,
+				188505E820EF051400AECAE5 /* NetworkRequestManage.m */,
+				18C4B89D20F077FE00C19805 /* NetAPIManager.h */,
+				18C4B89E20F077FE00C19805 /* NetAPIManager.m */,
+				18C4B8BC20F0C0C400C19805 /* CacheUtil.h */,
+				18C4B8BD20F0C0C400C19805 /* CacheUtil.m */,
+				18C4B8BF20F0C47000C19805 /* NSArray+JSON.h */,
+				18C4B8C020F0C47000C19805 /* NSArray+JSON.m */,
+				18C4B8C220F0C66600C19805 /* NSString+JSON.h */,
+				18C4B8C320F0C66600C19805 /* NSString+JSON.m */,
+				18C7F54E20F1ED6C000CF53D /* PreferenceUtil.h */,
+				18C7F54F20F1ED6C000CF53D /* PreferenceUtil.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		18C4B8A020F0843A00C19805 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				18C4B8A120F0846400C19805 /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		18C4B8A120F0846400C19805 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				18C4B8B820F0B5DA00C19805 /* view */,
+				18C4B8A220F086C700C19805 /* model */,
+				1885054D20EB8F5500AECAE5 /* ViewController.h */,
+				1885054E20EB8F5500AECAE5 /* ViewController.m */,
+				188505DD20EE5AC400AECAE5 /* BaseViewController.h */,
+				188505DE20EE5AC400AECAE5 /* BaseViewController.m */,
+				18C4B8E620F0F0D700C19805 /* HomePageViewController.h */,
+				18C4B8E720F0F0D700C19805 /* HomePageViewController.m */,
+				18C4B8E920F0F1E700C19805 /* LatestViewController.h */,
+				18C4B8EA20F0F1E700C19805 /* LatestViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		18C4B8A220F086C700C19805 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				18C4B8A320F0871A00C19805 /* PhotoModel.h */,
+				18C4B8A420F0871A00C19805 /* PhotoModel.m */,
+				18C4B8A620F0881700C19805 /* UserModel.h */,
+				18C4B8A720F0881700C19805 /* UserModel.m */,
+				18C4B8A920F088D000C19805 /* ProfileImageModel.h */,
+				18C4B8AA20F088D000C19805 /* ProfileImageModel.m */,
+				18C4B8AC20F089FF00C19805 /* LinksModel.h */,
+				18C4B8AD20F089FF00C19805 /* LinksModel.m */,
+				18C4B8AF20F0AC3000C19805 /* CurrentUserCollections.h */,
+				18C4B8B020F0AC3000C19805 /* CurrentUserCollections.m */,
+				18C4B8B220F0AD7700C19805 /* UrlsModel.h */,
+				18C4B8B320F0AD7700C19805 /* UrlsModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		18C4B8B820F0B5DA00C19805 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				18C4B8B920F0B62C00C19805 /* HomeImgCell.h */,
+				18C4B8BA20F0B62C00C19805 /* HomeImgCell.m */,
+				18C4B8C520F0E35A00C19805 /* HomeHeadView.h */,
+				18C4B8C620F0E35A00C19805 /* HomeHeadView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		18C4B8CB20F0F06500C19805 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				18C4B8EC20F1113300C19805 /* CustomLabel.h */,
+				18C4B8ED20F1113300C19805 /* CustomLabel.m */,
+				18C4B8CC20F0F08800C19805 /* TYPagerController */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		18C4B8CC20F0F08800C19805 /* TYPagerController */ = {
+			isa = PBXGroup;
+			children = (
+				18C4B8CD20F0F08800C19805 /* TYPagerController.m */,
+				18C4B8CE20F0F08800C19805 /* TYPagerViewLayout.m */,
+				18C4B8CF20F0F08800C19805 /* TabPager */,
+				18C4B8DA20F0F08800C19805 /* TYPagerView.m */,
+				18C4B8DB20F0F08800C19805 /* TYPagerViewLayout.h */,
+				18C4B8DC20F0F08800C19805 /* TYPagerController.h */,
+				18C4B8DD20F0F08800C19805 /* TYPagerView.h */,
+			);
+			path = TYPagerController;
+			sourceTree = "<group>";
+		};
+		18C4B8CF20F0F08800C19805 /* TabPager */ = {
+			isa = PBXGroup;
+			children = (
+				18C4B8D020F0F08800C19805 /* TYTabPagerBar.m */,
+				18C4B8D120F0F08800C19805 /* TYTabPagerBarLayout.m */,
+				18C4B8D220F0F08800C19805 /* TYTabPagerBarCell.h */,
+				18C4B8D320F0F08800C19805 /* TYTabPagerController.h */,
+				18C4B8D420F0F08800C19805 /* TYTabPagerView.m */,
+				18C4B8D520F0F08800C19805 /* TYTabPagerBar.h */,
+				18C4B8D620F0F08800C19805 /* TYTabPagerBarLayout.h */,
+				18C4B8D720F0F08800C19805 /* TYTabPagerController.m */,
+				18C4B8D820F0F08800C19805 /* TYTabPagerBarCell.m */,
+				18C4B8D920F0F08800C19805 /* TYTabPagerView.h */,
+			);
+			path = TabPager;
+			sourceTree = "<group>";
+		};
+		F5157F53268EB6AEACBFEAF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3ACACE51EC17A169498F9081 /* libPods-Photos.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +310,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1885055D20EB8F5600AECAE5 /* Build configuration list for PBXNativeTarget "Photos" */;
 			buildPhases = (
+				A30E9082F92BCBA4C68B5617 /* [CP] Check Pods Manifest.lock */,
 				1885054320EB8F5500AECAE5 /* Sources */,
 				1885054420EB8F5500AECAE5 /* Frameworks */,
 				1885054520EB8F5500AECAE5 /* Resources */,
+				7E44D409E50C70D47D7C8CE4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,14 +370,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7E44D409E50C70D47D7C8CE4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Photos/Pods-Photos-resources.sh",
+				"${PODS_ROOT}/MBProgressHUD+JDragon/MBProgressHUD+JDragon/MBProgressHUD+JDragon.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/YBImageBrowser/YBImageBrowser/YBImageBrowser.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MBProgressHUD+JDragon.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/YBImageBrowser.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Photos/Pods-Photos-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A30E9082F92BCBA4C68B5617 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Photos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1885054320EB8F5500AECAE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C4B8C420F0C66600C19805 /* NSString+JSON.m in Sources */,
 				1885054F20EB8F5500AECAE5 /* ViewController.m in Sources */,
+				188505DF20EE5AC400AECAE5 /* BaseViewController.m in Sources */,
+				18C4B8EB20F0F1E700C19805 /* LatestViewController.m in Sources */,
+				18C4B8AE20F089FF00C19805 /* LinksModel.m in Sources */,
+				18C4B8E820F0F0D700C19805 /* HomePageViewController.m in Sources */,
+				18C4B8E020F0F08800C19805 /* TYTabPagerBar.m in Sources */,
+				18C4B8C120F0C47000C19805 /* NSArray+JSON.m in Sources */,
+				18C4B8C720F0E35A00C19805 /* HomeHeadView.m in Sources */,
+				18C4B8A820F0881700C19805 /* UserModel.m in Sources */,
+				18C4B8E420F0F08800C19805 /* TYTabPagerBarCell.m in Sources */,
 				1885055A20EB8F5600AECAE5 /* main.m in Sources */,
+				18C4B8B120F0AC3000C19805 /* CurrentUserCollections.m in Sources */,
+				18C4B8E120F0F08800C19805 /* TYTabPagerBarLayout.m in Sources */,
+				188505E620EE60EA00AECAE5 /* ZMColor.m in Sources */,
+				18C4B89F20F077FE00C19805 /* NetAPIManager.m in Sources */,
+				18C4B8AB20F088D000C19805 /* ProfileImageModel.m in Sources */,
+				18C7F55020F1ED6C000CF53D /* PreferenceUtil.m in Sources */,
+				18C4B8A520F0871A00C19805 /* PhotoModel.m in Sources */,
+				18C4B8CA20F0E9BF00C19805 /* DateUtils.m in Sources */,
+				18C4B8DE20F0F08800C19805 /* TYPagerController.m in Sources */,
+				18C4B8E520F0F08800C19805 /* TYPagerView.m in Sources */,
+				18C4B8E320F0F08800C19805 /* TYTabPagerController.m in Sources */,
+				18C4B8E220F0F08800C19805 /* TYTabPagerView.m in Sources */,
+				188505E920EF051400AECAE5 /* NetworkRequestManage.m in Sources */,
+				18C4B8BB20F0B62C00C19805 /* HomeImgCell.m in Sources */,
+				18C4B8DF20F0F08800C19805 /* TYPagerViewLayout.m in Sources */,
+				18C4B8B420F0AD7700C19805 /* UrlsModel.m in Sources */,
+				18C4B8BE20F0C0C400C19805 /* CacheUtil.m in Sources */,
 				1885054C20EB8F5500AECAE5 /* AppDelegate.m in Sources */,
+				18C4B8EE20F1113400C19805 /* CustomLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +525,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -272,7 +577,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -281,9 +586,13 @@
 		};
 		1885055E20EB8F5600AECAE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86A95C79258AF8EA1130661A /* Pods-Photos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZ54XF997S;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Photos/PCH.h";
 				INFOPLIST_FILE = Photos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -291,15 +600,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rc.Photos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1885055F20EB8F5600AECAE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D99BE6CA5C1BB193314C9EE /* Pods-Photos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZ54XF997S;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Photos/PCH.h";
 				INFOPLIST_FILE = Photos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,7 +620,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rc.Photos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
